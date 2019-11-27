@@ -1,0 +1,19 @@
+/*
+ * Configuration File
+ * Rename me into config.h and set up
+ */
+
+// #define DEBUG // Comment this line to disable USB Serial debug mode
+
+#define SERIAL_BAULRATE            9600
+#define RETRY_MQTT_CONNECT         5000
+
+#define WIFI_HOSTNAME              "IoT-Lamp"
+#define WIFI_SSID                  "********"
+#define WIFI_PASSWORD              "********"
+
+#define MQTT_HOST                  "192.168.0.249"
+#define MQTT_PORT                  1883
+#define MQTT_CLIENT_ID             "lamp" // base path of the topic, ie. home/living/lamp-0 (avoid / as first char)
+
+#define PIN_LIGHT                  D0  // For light the lamp
