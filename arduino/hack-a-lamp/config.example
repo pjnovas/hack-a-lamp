@@ -14,6 +14,8 @@
 
 #define MQTT_HOST                  "192.168.0.249"
 #define MQTT_PORT                  1883
+#define MQTT_USER                  "user"
+#define MQTT_PASS                  "pass"
 #define MQTT_CLIENT_ID             "lamp" // base path of the topic, ie. home/living/lamp-0 (avoid / as first char)
 
 #define PIN_LIGHT                  D0  // For light the lamp
